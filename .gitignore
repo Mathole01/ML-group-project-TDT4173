@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Generated intermediate artifacts (the short notebooks may write these at run time)
+artifacts/
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# Kaggle submissions produced locally
+submission*.csv
+!sintef_project/sample_submission.csv
+
+# Logs
+*.log
